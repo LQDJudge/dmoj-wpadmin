@@ -1,3 +1,4 @@
+from django.contrib import admin
 from django.utils.text import capfirst
 from django.urls import reverse
 
@@ -24,7 +25,14 @@ class SubModelMenu(AppListElementMixin, MenuItem):
         super(SubModelMenu, self).__init__(title, **kwargs)
 
     def init_with_context(self, context):
-        model_map = get_model_map(get_admin_site(context))
+        site = get_admin_site(context)
+
+        visible_models = set()
+        for app in site.get_app_list(context.get('request')):
+            for model in app['models']:
+                visible_models.add(f'{app["app_label"]}.{model["object_name"]}')
+
+        model_map = {k: v for k, v in get_model_map(site).items() if k in visible_models}
 
         for entry in self.subtree:
             children = None
@@ -62,6 +70,9 @@ class SubModelMenu(AppListElementMixin, MenuItem):
                 self.children.append(MenuItem(**kwargs))
             else:
                 self.children.append(SubModelMenu(subtree=children, **kwargs))
+
+    def is_empty(self):
+        return False
 
 
 class CustomModelLeftMenu(Menu):
