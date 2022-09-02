@@ -37,6 +37,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 	}
+	$('.select2-filter').select2();
 
 	$(window).resize(fixBottomBar).resize();
 });

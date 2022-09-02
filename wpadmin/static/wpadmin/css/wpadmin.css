@@ -1197,7 +1197,8 @@ body.change-list #content h1 {
     float: left;
     background: none;
     border: none;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     margin: 0 1em 0 0;
     font-size: inherit;
     line-height: inherit;
@@ -1217,7 +1218,6 @@ body.change-list #content h1 {
 
 #content #changelist #changelist-filter .filter h3 {
     float: left;
-    margin: 0;
     font-weight: normal;
     padding-right: .2em;
     padding-left: .2em;
@@ -1231,51 +1231,6 @@ body.change-list #content h1 {
 #content #changelist #changelist-filter .filter h3:before {
     content: "| ";
     padding-right: 1em
-}
-
-#content #changelist #changelist-filter .filter ul {
-    float: left;
-    margin: 0;
-    padding: 6px 10px;
-    list-style-type: none;
-    top: -4px;
-    overflow-y: auto;
-    max-height: 20em
-}
-
-#content #changelist #changelist-filter .filter ul li {
-    display: none;
-    white-space: nowrap;
-    font-size: 13px;
-    list-style-type: none
-}
-
-#content #changelist #changelist-filter .filter ul li.selected {
-    display: block;
-    border: none;
-    margin: 0;
-    padding: 0
-}
-
-#content #changelist #changelist-filter .filter ul li a {
-    pointer-events: none
-}
-
-#content #changelist #changelist-filter .filter ul:hover {
-    z-index: 100;
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
-}
-
-#content #changelist #changelist-filter .filter ul:hover li {
-    display: block
-}
-
-#content #changelist #changelist-filter .filter ul:hover li a {
-    display: block;
-    padding: 5px 0;
-    pointer-events: all
 }
 
 #content #changelist .toplinks {

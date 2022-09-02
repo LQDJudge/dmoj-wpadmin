@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-31 12:22+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Translators: This is already translated in Django
+#: src/dmoj-wpadmin/wpadmin/menu/items.py:132
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:37
+msgid "Change"
+msgstr ""
+
+#. Translators: This is already translated in Django
+#: src/dmoj-wpadmin/wpadmin/menu/items.py:134
+msgid "No permission"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:62
+msgid "Site"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:73
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:76
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:104
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:107
+msgid "Dashboard"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:110
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:111
+msgid "Applications"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:116
+#: src/dmoj-wpadmin/wpadmin/menu/menus.py:117
+msgid "Administration"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/base.html:84
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:18
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:42
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:8
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:8
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:6
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:7
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_complete.html:6
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:6
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_done.html:6
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:6
+msgid "Home"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:63
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:31
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/menu_item.html:6
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/menu_top_item.html:7
+msgid "Add"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:33
+msgid "History"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:35
+msgid "View on site"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:49
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:72
+#: src/dmoj-wpadmin/wpadmin/templates/admin/login.html:17
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:19
+msgid "Please correct the error below."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_form.html:49
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:72
+#: src/dmoj-wpadmin/wpadmin/templates/admin/login.html:17
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:19
+msgid "Please correct the errors below."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:82
+msgid "Filter"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list.html:106
+#: src/dmoj-wpadmin/wpadmin/templates/admin/submit_line.html:3
+msgid "Save"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:18
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:36
+msgid "Toggle sorting"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:19
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:37
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:20
+#: src/dmoj-wpadmin/wpadmin/templates/admin/change_list_results.html:38
+msgid "Remove from sorting"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:12
+#: src/dmoj-wpadmin/wpadmin/templates/admin/submit_line.html:9
+msgid "Delete"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:19
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:27
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:35
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_confirmation.html:41
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:46
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:11
+msgid "Delete multiple objects"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/delete_selected_confirmation.html:34
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/filter.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:47
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:56
+msgid "Recent Actions"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:60
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:89
+msgid "None available"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:74
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:103
+msgid "Unknown content"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/index.html:85
+msgid "My Actions"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/login.html:38
+msgid "Password:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/login.html:43
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_complete.html:15
+msgid "Log in"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/login.html:49
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/pagination.html:10
+msgid "Show all"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/submit_line.html:4
+msgid "Save as new"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/submit_line.html:5
+msgid "Save and add another"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/admin/submit_line.html:6
+msgid "Save and continue editing"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:3
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:4
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/user_tools.html:18
+msgid "Documentation"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:3
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:4
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/user_tools.html:13
+msgid "Change password"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:3
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:4
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/user_tools.html:15
+msgid "Log out"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:7
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:8
+msgid "Password change"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_done.html:12
+msgid "Your password was changed."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:17
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:30
+msgid "Old password"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:37
+msgid "New password"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:44
+msgid "Password (again)"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_change_form.html:51
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:43
+msgid "Change my password"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_complete.html:7
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_done.html:7
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:7
+msgid "Password reset"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_complete.html:13
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:7
+msgid "Password reset confirmation"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:15
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:30
+msgid "New password:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:37
+msgid "Confirm password:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_confirm.html:49
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_done.html:13
+msgid ""
+"We've emailed you instructions for setting your password. You should be "
+"receiving them shortly."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_done.html:15
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:13
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:28
+msgid "Email address:"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/registration/password_reset_form.html:34
+msgid "Reset my password"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:15
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:16
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:19
+msgid "Menu options"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:21
+msgid "Expand menu"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:21
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/left_menu.html:22
+msgid "Collapse menu"
+msgstr ""
+
+#: src/dmoj-wpadmin/wpadmin/templates/wpadmin/menu/user_tools.html:6
+msgid "Welcome,"
+msgstr ""
+
+#. Translators: This is already translated in Django
+#: src/dmoj-wpadmin/wpadmin/templatetags/wpadmin_tags.py:40
+msgid "Django site admin"
+msgstr ""
