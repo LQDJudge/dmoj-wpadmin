@@ -1959,7 +1959,8 @@ body.dashboard #content #content-main table tr:last-child td {
 body.dashboard #content #content-related {
     float: left;
     width: 284px;
-    margin-right: 0
+    margin-right: 0;
+    background: unset;
 }
 
 body.dashboard #content #content-related .actionlist .deletelink {
