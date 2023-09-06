@@ -633,7 +633,14 @@ body.popup {
     margin-bottom: 0;
     margin-top: 0;
     padding-bottom: 0;
-    padding-top: 3px
+    padding-top: 3px;
+}
+
+#content .form-row .md-typeset p {
+    font-family: inherit;
+    font-size: inherit;
+    margin: inherit;
+    padding: inherit;
 }
 
 #content .form-row p.file-upload,
